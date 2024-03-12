@@ -4,8 +4,8 @@
   "description": "nhuthangdev.com",
   "main": "index.js",
   "scripts": {
-    "build:css": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
-    "start": "live-server src"
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "start": "live-server public"
   },
   "keywords": [],
   "author": "nhuthangdev.com",
